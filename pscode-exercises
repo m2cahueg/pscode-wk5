@@ -1,19 +1,20 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
-AddendA = 0
-AddendB = 0
-SumA = 0
-
-AddendA = Input("Input the first addend.")
-AddendB = Input("Input the second addend.")
+AddendA = Input
+AddendB = Input
 
 SumA = AddendA + AddendB
 
-print ("The sum is " SumA ".") 
+print "The sum is SumA."
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+Number1 = Input
+
+If Number1 % 2 = 0
+print "The number is even."
+else 
+print "The number is odd."
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -23,6 +24,30 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+Number1 = Input
+Number2 = Input
+Number3 = Input
+Number4 = Input
+Number5 = Input
+
+Sum = Number1 + Number2 + Number3 + Number4 + Number5
+Average = Sum / 5
+
+LargestNumber = Number1
+
+If LargestNumber < Number2
+then LargestNumber = Number2
+
+If LargestNumber < Number3
+then LargestNumber = Number3
+
+If LargestNumber < Number4
+then LargestNumber = Number4
+
+If LargestNumber < Number5
+then LargestNumber = Number5
+
+print "The average of the five numbers is Average"
+print "The largest number of the five numbers is LargestNumber"
 
 -- END --
