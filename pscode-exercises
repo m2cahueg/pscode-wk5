@@ -33,6 +33,20 @@ Number5 = Input
 Sum = Number1 + Number2 + Number3 + Number4 + Number5
 Average = Sum / 5
 
+SmallestNumber = Number1
+
+If SmallestNumber > Number2
+then SmallestNumber = Number2
+
+If SmallestNumber > Number3
+then SmallestNumber = Number3
+
+If SmallestNumber > Number4
+then SmallestNumber = Number4
+
+If SmallestNumber > Number5
+then SmallestNumber = Number5
+
 LargestNumber = Number1
 
 If LargestNumber < Number2
@@ -48,6 +62,7 @@ If LargestNumber < Number5
 then LargestNumber = Number5
 
 print "The average of the five numbers is Average"
+print "The smallest number of the five numbers is SmallestNumber"
 print "The largest number of the five numbers is LargestNumber"
 
 -- END --
